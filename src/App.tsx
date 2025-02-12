@@ -1,10 +1,11 @@
 import Formulario from "./components/Formulario"
+import Lista from "./components/Lista"
 
 function App() {
   return (
     <>
       <div>
-        <h1 style={{ textAlign: 'center', color: 'black', fontFamily: "sans-serif" }}>--- Cronometro de Estudos ---</h1>
+        <Lista />
         <br />
         <Formulario />
       </div>
