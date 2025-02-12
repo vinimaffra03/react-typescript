@@ -5,9 +5,8 @@ function App() {
   return (
     <>
       <div>
-        <Lista />
-        <br />
         <Formulario />
+        <Lista />
       </div>
     </>
   )
